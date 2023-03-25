@@ -2,14 +2,8 @@ const form = document.getElementById('formulario')
 
 const filasTabla = document.getElementById('filasTabla')
 
-console.log(nombre.value)
-
 addEventListener('submit', e => {
     e.preventDefault()
-
-    /*
-    AGREGAR VALIDACIÓN FORMULARIO
-    */
 
     let inputNombre = document.getElementById('nombre')
     const nombre = inputNombre.value
