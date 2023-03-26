@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+/*
+font-family: 'Archivo', sans-serif;
+*/
+
+:root {
+    --color-claro: rgb(193, 247, 247);
+    --color-oscuro: rgb(26, 166, 221);
+    --color-blanco: white;
+}
+
+#formulario {
+    background-color: var(--color-claro);
+    width: 300px;
+    padding: 32px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+}
+
+#formulario label {
+    color: var(--color-oscuro);
+}
+
+#formulario input {
+    border: 2px solid var(--color-oscuro);
+    border-radius: 5px;
+    font-size: 20px;
+    max-width: 90%;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#formulario .btn {
+    background-color: var(--color-oscuro);
+    padding: 16px;
+    margin: 5px;
+    width: 60px;
+    font-family: 'Archivo', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    color: var(--color-blanco);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#formulario #mostrarDatos {
+    color: var(--color-oscuro);
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+}

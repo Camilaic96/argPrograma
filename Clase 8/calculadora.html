@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesCalculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <form action="" id="formulario">
+            <label for="nro-1">Número 1:</label>
+            <input type"number" name="nro-1" id="nro-1" required>
+
+            <label for="nro-2">Número 2:</label>
+            <input type"number" name="nro-2" id="nro-2" required>
+
+            <!--<button type="submit" class="btn">Copiar números</button>-->
+            <div class="botones">
+                <button type="button" class="btn" onclick="realizarOperacion('+')">+</button>
+                <button type="button" class="btn" onclick="realizarOperacion('-')">-</button>
+                <button type="button" class="btn" onclick="realizarOperacion('*')">*</button>
+                <button type="button" class="btn" onclick="realizarOperacion('/')">/</button>
+            </div>
+            <div id="mostrarDatos"></div>
+        </form>
+    </main>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>
